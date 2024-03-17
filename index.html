@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="alert alert-primary" role="alert" id="status"></div>
+            </div>
+            <div class="col-sm-4">
+                <p>Round number: <strong id="round">0</strong></p>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="board">
+
+        <div class="row">
+            <div class="col-sm">
+                <div id="box-1" class="box">Red</div>
+            </div>
+            <div class="col-sm">
+                <div id="box-2" class="box">Blue</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <div id="box-3" class="box">Yellow</div>
+            </div>
+  
+            <div class="col-sm">
+                <div id="box-4" class="box">Green</div>
+            </div>
+
+        </div> 
+
+
+    </div>
+    <script src="/simon-say.js"></script>    
+
+</body>
+</html>
